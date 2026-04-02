@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Job Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Job Portal</h1>
+
+<div class="filters">
+
+<input type="text" id="search" placeholder="Search Job Title">
+
+<select id="companyFilter">
+<option value="">All Companies</option>
+<option value="Google">Google</option>
+<option value="Microsoft">Microsoft</option>
+<option value="Amazon">Amazon</option>
+</select>
+
+<select id="roleFilter">
+<option value="">All Roles</option>
+<option value="Developer">Developer</option>
+<option value="Designer">Designer</option>
+<option value="Manager">Manager</option>
+</select>
+
+</div>
+
+<h2>Available Jobs</h2>
+<div id="jobContainer" class="job-grid"></div>
+
+<h2>Saved Jobs</h2>
+<div id="savedJobs" class="job-grid"></div>
+
+<script src="app.js"></script>
+<script src="app.ts"></script>
+
+</body>
+</html>
